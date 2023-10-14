@@ -1,0 +1,148 @@
+.humburger{
+    display: none;
+}
+@media(max-width:767.98px) {
+    .wrap{
+        width: 720px;
+    }
+    .start{
+        background: url(./img/Yanki\ \(51\)\ 1.png) no-repeat center / cover;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu{
+        display: none;
+    }
+    .disable{
+        display: none;
+    }
+    .humburger{
+        background: none;
+        border: none;
+        display: block;
+    }
+    .line{
+        width: 120px;
+        height: 1px;
+        background: #FFF;
+        margin-left: 300px;
+    }
+    .iron img{
+        min-width: 90%;
+    }
+    h3{
+        width: 168.75px;
+    }
+    .book{
+        max-width: 60%;
+       
+    }
+    .btn{
+        max-width: 60%;
+        margin-left: 200px;
+    }
+    input{
+        max-width: 60%;
+        margin-left: 200px;
+    }
+}
+@media(max-width:575.98px) {
+    .humburger{
+        display: none;
+    }
+    .wrap{
+        width: 100%;
+    }
+    .start{
+        background: url(./img/Yanki\ \(51\)\ 1.png) no-repeat center / cover;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+    }
+    .menu{
+        display: none;
+    }
+    .disable{
+        display: none;
+    }
+    .able{
+        margin-left: 7px;
+    }
+    .unable{
+        margin-left: 3px;
+    }
+    .humburger{
+        background: none;
+        border: none;
+        display: block;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .line{
+        width: 120px;
+        height: 1px;
+        background: #FFF;
+        margin-left: 200px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .iron img{
+        min-width: 100%;
+    }
+    h3{
+        width: 100%;
+    }
+    .book{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .gap{
+        color: #252525;
+text-align: center;
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+    h2{
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .p{
+        color: #252525;
+text-align: center;
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+
+    }
+input{
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+}
+    .btn{
+        margin: 20px auto;
+        
+    }
+    .grid_last{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .none{
+        display: none;
+    }
+}
